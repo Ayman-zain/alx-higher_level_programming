@@ -9,4 +9,4 @@ def uppercase(str):
         elif (ord(i) >= 97 and ord(i) <= 122 and j == len(str) - 1):
             str = str[:j] + chr(ord(i) - 32)
         j = j + 1
-    print(str)
+    print("{}".format(str))
