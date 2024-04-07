@@ -10,4 +10,4 @@ def print_last_digit(number):
         frac = number % 1
         frac = int(frac * 10)
         print(frac, end="")
-        return frac     
+        return frac
