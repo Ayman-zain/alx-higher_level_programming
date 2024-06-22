@@ -1,5 +1,5 @@
 #!/usr/bin/node
-/* print the args */
+
 const { argv } = require('node:process');
 const numArgs = process.argv.length - 2;
 
@@ -10,3 +10,4 @@ if (numArgs === 0) {
 } else {
     console.log('Arguments found');
 }
+
